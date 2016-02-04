@@ -1,0 +1,66 @@
+/* header */
+
+img.logo {
+	height:30px;
+	display: inline-block;
+}
+
+p.sign {
+	font-family: "AvenirNext-Regular", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	text-decoration: none;
+	float:right;
+	margin-right: 40px;
+
+}
+
+
+
+
+
+/* main section */
+
+.main {
+	width: 788px;
+	height: 800px;
+	margin: auto;
+	display: inline-block;
+    background-color: white;
+    position: relative;
+    padding: 43px 50px 50px 50px;
+    min-height: 330px;	
+    box-shadow: 2px 2px 2px 5px #888888;
+}
+
+.left {
+	display:inline-block;
+}
+
+label {
+	display:block;
+	margin-top: 40px;
+
+}
+
+input {
+	box-shadow: none;
+    border-radius: 3px;
+    border: 1px solid #d8d8d8;
+}
+
+h2 {
+	font-family: "AvenirNext-Regular", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	text-decoration: none;
+	font-weight: normal;
+}
+
+/* sidebar */
+
+aside {
+	margin-right: -25px;
+    padding-left: 0;
+    right: 50px;
+    background-color: #ccc;
+    width: 197px;
+    height: 598px;
+    float:right;
+}
