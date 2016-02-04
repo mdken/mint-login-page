@@ -5,12 +5,15 @@ img.logo {
 	display: inline-block;
 }
 
+p {
+	font-family: "AvenirNext-Regular", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
 p.sign {
 	font-family: "AvenirNext-Regular", "Helvetica Neue", Helvetica, Arial, sans-serif;
 	text-decoration: none;
 	float:right;
 	margin-right: 40px;
-
 }
 
 
@@ -18,6 +21,10 @@ p.sign {
 
 
 /* main section */
+
+h3 {
+	font-family: "AvenirNext-Regular", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
 
 .main {
 	width: 788px;
@@ -38,7 +45,7 @@ p.sign {
 label {
 	display:block;
 	margin-top: 40px;
-
+font-family: "AvenirNext-Regular", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 input {
