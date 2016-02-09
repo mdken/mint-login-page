@@ -1,14 +1,10 @@
 /* page */
 
-html {
-	box-sizing: border-box;
-}
-*, *:before, *:after {
-	box-sizing: inherit;
-}
+
 
 .container {
 	max-width: 800px;
+	height: 899px;
 	margin: auto;
 
 }
@@ -47,7 +43,7 @@ h3 {
 }
 
 .main {
-	width: 100%;
+	width: 700px;
 	height: 800px;
 	font-weight: normal;
 	color: #333333;
@@ -55,7 +51,7 @@ h3 {
 	position: relative;
 	padding: 43px 50px 50px 50px;
 	min-height: 330px;	
-	box-shadow: 2px 2px 2px 5px #888888;
+	box-shadow: 1px 1px 7px 0px #888888;
 	border-radius: 1px;
 }
 
@@ -95,9 +91,8 @@ h3 {
 	font-family: "AvenirNext-Regular", "Helvetica Neue", Helvetica, Arial, sans-serif;
 	text-decoration: none;
 	font-size: 20px;
-
+	line-height: 30px;
 	color: #666;
-
 	font-weight: 500;
 }
 
@@ -105,10 +100,14 @@ ul.why {
 	font-family: "AvenirNext-Regular", "Helvetica Neue", Helvetica, Arial, sans-serif;
 	color: #666;
 	font-size: 12px;
+	font-weight: normal;
+
+	list-style-position: outside;
 
 }
 li {
-	padding: 5px 0px;
+	padding: 0 5px 5px 0px;
+	margin: 0 0 10px 0;
 }
 
 /* sidebar */
@@ -121,7 +120,6 @@ aside.total {
 	margin: 0 -25px 0 0;
 	right: 50px;
 	display: block;
-	float: right;
 }
 
 aside.gray {
@@ -132,7 +130,11 @@ aside.gray {
 	background-color: #f5f5f5;
 	height: 540px;
 	width: 140px;
-	
+	display: block;
+	margin: 0 0 0 25px;
+	padding: 21px 17px 19px 40px;
+	line-height: 21px;
+	font-weight: normal;
 
 }
 
@@ -148,4 +150,21 @@ div.btn {
 	font-size: 13.5px;
 	border-radius: 3px;
 	margin-top: 40px;
+}
+
+input.box {
+	height: 19px;
+	width: 19px;
+	border: 1px solid #d8d8d8;
+	padding: 0 0 5px 0;
+	background-color: #ffffff;
+	color: #333333;
+	
+	border-radius: 3px;
+}
+
+span.remember {
+	font-family: "AvenirNext-Regular", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	line-height: 10px;
+	font-size: 14px;
 }
