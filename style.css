@@ -38,9 +38,7 @@ p.sign {
 
 /* main section */
 
-h3 {
-	font-family: "AvenirNext-Regular", "Helvetica Neue", Helvetica, Arial, sans-serif;
-}
+
 
 .main {
 	width: 700px;
@@ -90,7 +88,7 @@ h2 {
 h3 {
 	font-family: "AvenirNext-Regular", "Helvetica Neue", Helvetica, Arial, sans-serif;
 	text-decoration: none;
-	font-size: 20px;
+	font-size: 18px;
 	line-height: 30px;
 	color: #666;
 	font-weight: 500;
@@ -101,8 +99,8 @@ ul.why {
 	color: #666;
 	font-size: 12px;
 	font-weight: normal;
-
-	list-style-position: outside;
+	margin-left: -20px;
+	
 
 }
 li {
